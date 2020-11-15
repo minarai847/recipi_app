@@ -2,7 +2,7 @@ class UsersController < ApplicationController
 
   def show
   end
-  
+
 
   def edit 
   end
@@ -18,9 +18,7 @@ class UsersController < ApplicationController
   end
  
 
-def delete
-  
-end
+
 
 
   private
