@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
-  
-  root to: 'recipe#index'
+
+  get '/mypage' => 'users#mypage'
   devise_for :users
-  resources :users, only:[:edit,:update]
-  resources :recipes
+  root to: 'recipes#index'
+  resources :users
+  resources :recipes do
+  end
+
 
 end
