@@ -13,9 +13,9 @@ default: &default
   adapter: mysql2
   encoding: utf8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-   username: root
-  password: <%= ENV['DATABASE_PASSWORD'] %>
-  socket: /var/lib/mysql/mysql.sock
+  username: root
+  password:
+  socket: /tmp/mysql.sock
 
 development:
   <<: *default
@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: recipi_app_production
-  username: recipi_app
-  password: <%= ENV['RECIPI_APP_DATABASE_PASSWORD'] %>
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
