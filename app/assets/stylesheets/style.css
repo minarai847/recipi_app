@@ -86,6 +86,7 @@ a {
 /* フォーム周り */
 .form__wrapper{
   min-height: calc(100vh - 161px);
+  
 }
 
 .form__text {
@@ -93,7 +94,8 @@ a {
 }
 
 .field{
-  margin: 10px 0;
+  justify-content: center;
+  margin: 10px;
 }
 
 .actions{
