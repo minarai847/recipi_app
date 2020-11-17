@@ -1,9 +1,7 @@
 class UsersController < ApplicationController
   before_action :authenticate_user!, only: [:mypage, :edit, :update]
   before_action :set_user, only: [:show, :edit, :update]
-  def mypage
-  end
-
+  
 
   def show
     @user = User.find(params[:id])
