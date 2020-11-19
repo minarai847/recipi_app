@@ -129,6 +129,9 @@ a {
 .greeting__link{
   text-decoration: underline;
 }
+.page{
+  justify-content: space-around;
+}
 .page-heading {
   font-size: 30px;
   margin-bottom: 28px;
@@ -137,14 +140,15 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  
   min-height: calc(100vh - 161px);
 }
 .card {
-  width: calc((100% - 50px) / 3);
+  width: calc((100% - 50px) / 10);
   margin-bottom: 40px;
 }
 .card__img {
+  width: 300px;
   margin-bottom: 16px;
 }
 .card__title {

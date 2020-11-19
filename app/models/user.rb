@@ -10,8 +10,13 @@ class User < ApplicationRecord
           validates :password,format: {with:/\A(?=.*?[a-z])(?=.*?\d)[a-z\d]+\z/i, message: 'Include both letters and numbers'}
           
           end
-          has_many :recipes
+          has_many :recipes,dependent: :destroy
           has_many :goods
-          has_many :comments
+          has_many :comments,dependent: :destroy
+
+          def already_gooded?
+            self.goods.exists?(recipe_id: recipes.ids)
+          end
+
  end
  
