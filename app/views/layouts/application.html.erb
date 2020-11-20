@@ -5,9 +5,11 @@
     <title>Recipe Share</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/321725f579.js" crossorigin="anonymous"></script>
   </head>
 
@@ -21,7 +23,7 @@
           <%# ログインしているときは以下を表示するようにしましょう %>
            <% if user_signed_in? %> 
              <div class="nav__right"> 
-             <%= link_to 'マイページ',class: :nav__logout %></div>
+             <%= link_to 'マイページ', user_path(current_user),class: :nav__logout %></div>
               <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: :nav__logout %> 
                 <%= link_to "レシピ投稿",new_recipe_path, class: :nav__btn %> 
              </div> 

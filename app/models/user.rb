@@ -6,16 +6,16 @@ class User < ApplicationRecord
          with_options presence:true do
           validates :name
             EMAIL = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
-           validates :email, presence: true  , format: {with: EMAIL}
+           validates :email, format: {with: EMAIL}
           validates :password,format: {with:/\A(?=.*?[a-z])(?=.*?\d)[a-z\d]+\z/i, message: 'Include both letters and numbers'}
           
-          end
+         end
           has_many :recipes,dependent: :destroy
           has_many :goods
           has_many :comments,dependent: :destroy
 
-          def already_gooded?
-            self.goods.exists?(recipe_id: recipes.ids)
+          def already_gooded?(recipe)
+            self.goods.exists?(recipe_id: recipe.id)
           end
 
  end

@@ -4,15 +4,18 @@
     <%= link_to recipe.title, recipe_path(recipe.id), class: :card__title%>
     
     <%= link_to "by #{recipe.user.name}", "/users/#{recipe.user.id}", class: :card__user %>
-    <% if %>
+    <% if user_signed_in?%>
+    <% if current_user.already_gooded?(recipe)%>
     <%= link_to recipe_goods_path(recipe),method: :delete do%>
     <i class="fas fa-heart"></i>
     <% end %>
     <% else%>
-    <%= link_to recipe_goods_path(recipe), method: :post do %>
+    <%= link_to recipe_goods_path(recipe), method: :create do %>
     <i class="far fa-heart"></i>
     <% end %>
     <% end %>
+
     <%= recipe.goods.count%>
+    <% end %>
   </div>
 </div>
