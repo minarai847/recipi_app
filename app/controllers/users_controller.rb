@@ -1,26 +1,28 @@
 class UsersController < ApplicationController
-  before_action :authenticate_user!
+  before_action :authenticate_user!,only:[:show]
   def show
     @user = User.find(params[:id])
     @recipes =@user.recipes 
   end
 
   def edit
-    @user = current_user
+    @user = User.find(params[:id])
   end
 
   def update
-    @user = current_user
+    @user = User.find(params[:id])
+   
     if @user.update(user_params)
-      redirect_to user_path, notice: "ユーザー情報を更新しました。"
+       redirect_to user_path(@user)
     else
       render :edit
     end
+
   end
 
   private
   def user_params
-    params.require(:user).permit(:name, :email)
+    params.require(:user).permit(:name,:email)
   end
   
 end
