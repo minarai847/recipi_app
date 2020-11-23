@@ -2,15 +2,12 @@
   <div class="inner">
     <div class="user__wrapper">
     <% if user_signed_in? && @user == current_user %>
-  <h1>マイページ</h1>
-  <%= link_to "編集", edit_user_path(@user) %>
-<% else %>
-  <h1>ユーザーページ</h1>
+
 <% end %>
 
 
-        <%= "#{@user.name}さんのレシピ"%>
-      </h2>
+        <h3><%= "#{@user.name}さんのレシピ"%>
+      </h3>
       <div class="user__card">
         <%# 部分テンプレートでそのユーザーが投稿したプロトタイプ投稿一覧を表示する %>
          <%= render partial: 'recipes/recipe', collection: @recipes %> 

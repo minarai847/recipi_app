@@ -1,8 +1,9 @@
 class UsersController < ApplicationController
-  before_action :authenticate_user!,only:[:show]
+  before_action :authenticate_user!,except:[:show]
   def show
     @user = User.find(params[:id])
-    @recipes =@user.recipes 
+    @recipes =@user.recipes.order("created_at DESC")
+    
   end
 
   def edit

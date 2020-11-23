@@ -38,18 +38,21 @@ a {
 
 .header {
   background-color:lightyellow;
-  margin-bottom: 48px;
+  
   
 
 }
 .inner {
   width: 100%;
- 
+}
+.in{
+  width: 100%;
+  background-image: url("logo5.jpg");
 }
 .nav {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  
   align-items: center;
 }
 .logo {
@@ -124,6 +127,7 @@ a {
 /* メイン */
 
 .greeting{
+  background-color: white;
   margin-bottom: 20px;
 }
 .greeting__link{
@@ -135,23 +139,36 @@ a {
 .page-heading {
   font-size: 30px;
   margin-bottom: 28px;
+  text-shadow:0 5px 5px black;
+  color:lightpink;
+  
 }
 .card__wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  
   
   min-height: calc(100vh - 161px);
 }
 .card {
-  width: calc((100% - 50px) / 10);
-  margin-bottom: 40px;
+  box-shadow: 10px 10px 15px black;
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+  background-color: lightyellow;
+  
+}
+.card__body{
+  width: 200px;
+  padding: 20px;
 }
 .card__img {
   width: 300px;
-  margin-bottom: 16px;
+ 
 }
 .card__title {
+  
   display: block;
   font-size: 20px;
   margin-bottom: 8px;
@@ -170,7 +187,7 @@ a {
 
 /* 詳細ページ */
 .prototype__wrapper{
-  min-height: calc(100vh - 161px);
+  min-height: 100%;
 }
 .prototype__hedding{
   font-size: 24px;
@@ -188,16 +205,35 @@ a {
   width: 40%;
   margin: 0 auto;
   padding: 16px 0;
+  display:flex;
+}
+.prototype__body{
+  width: 100vw;
+  padding:10px;
+  display: flex;
+  justify-content: center;
+}
+.detail__material{
+  
+  background-color: orange;
+  width:300px;
+  
 }
 .prototype__detail{
-  display: flex;
-  align-items: center;
+  margin: 0px 20px;
+  
   flex-direction: column;
-  margin-bottom: 8px;
+ padding: 0 30px 8px 0;
 }
+
 .detail__title{
   font-size: 20px;
   font-weight: bold;
+}
+.detail__message{
+  white-space:pre-line;
+  border:solid 5px wheat;
+  padding: 10px;
 }
 .prototype__manage{
   display: flex;
@@ -224,27 +260,33 @@ a {
 .prototype__comments{
   background-color: #f6f6f6;
   padding: 20px;
-  margin: 28px 0 40px 0;
+  margin: 28px 0px 40px 210px;
+  width: 70%;
 }
 
 .comments_lists{
   padding-left: 20px;
+  
 }
 
 .comments_list{
   list-style-type: square;
   padding-bottom: 5px;
+  
 }
 
 .comment_user{
   font-size: 16px;
   color: #999;
   text-decoration: underline;
+  display: flex;
 }
 
 /* ユーザーページ */
 .user__wrapper{
+  padding:10px;
   min-height: calc(100vh - 161px);
+  background-image: url("logo5.jpg");
 }
 .table{
   border-collapse: collapse;
@@ -270,7 +312,7 @@ a {
 .user__card {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  
   align-items: center;
 }
 /* フッター */
@@ -296,7 +338,10 @@ a {
   }
   .card {
     width: 48%;
-    margin-bottom: 40px;
+    
+  }
+  .card__body{
+    width: 200px;
   }
   .prototype_image{
     width: 60%;

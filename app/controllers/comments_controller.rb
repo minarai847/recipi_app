@@ -1,6 +1,10 @@
 class CommentsController < ApplicationController
   
-
+  def destroy
+    @comment = Comment.find(params[:id]).destroy
+    redirect_to "/recipes/#{@comment.recipe.id}"
+  end
+  
   def create
     @comment = Comment.new(comment_params)
     if @comment.save
@@ -14,7 +18,7 @@ class CommentsController < ApplicationController
 
   private
     def comment_params
-      params.require(:comment).permit(:text).merge(user_id:current_user.id,recipe_id: params[:recipe_id])
+      params.require(:comment).permit(:text,:reply_comment).merge(user_id:current_user.id,recipe_id: params[:recipe_id])
   end
 
 end

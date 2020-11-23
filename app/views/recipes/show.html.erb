@@ -3,7 +3,9 @@
     <div class="prototype__wrapper">
       <p class="prototype__hedding">
         <%= @recipe.title%>
+        
       </p>
+       <small class="prototype__user">更新日：<%= @recipe.updated_at.strftime("%Y-%m-%d") %></small>
     <%= link_to "by#{@recipe.user.name}" , user_path(@recipe.user.id),class: :prototype__user %>
       <%# プロトタイプの投稿者とログインしているユーザーが同じであれば以下を表示する %>
       <% if user_signed_in? &&  current_user == @recipe.user %> 
@@ -15,19 +17,30 @@
       <%# // プロトタイプの投稿者とログインしているユーザーが同じであれば上記を表示する %>
       <div class="prototype__image">
         <%= image_tag @recipe.image  %>
+        
       </div>
       <div class="prototype__body">
         <div class="prototype__detail">
           <p class="detail__title">作り方</p>
-          <p class="detail__message">
-            <%= @recipe.body %>
+           <p class="detail__message">
+            <%= @recipe.body %> 
           </p>
+          </li>
+          </ul>
+          </div>
+          <div class="prototype__d">
+          <p class="detail__title">材料</p>
+          <p class="detail__message">
+        <%= @recipe.material%>
+        </p>
         </div>
         
+        
       </div>
+      <% if user_signed_in? %>
       <div class="prototype__comments">
         <%# ログインしているユーザーには以下のコメント投稿フォームを表示する %>
-         <% if user_signed_in? %> 
+          
             <%= form_with model: [@recipe,@comment], local: true  do |f|%> 
              <div class="field"> 
                 <%= f.label :text, "コメント" %><br /> 
@@ -37,18 +50,60 @@
               <%= f.submit "送信する", class: :form__btn  %>
              </div> 
          <% end %>  
-           <% end %>
+           
         <%# // ログインしているユーザーには上記を表示する %>
           <ul class="comments_lists"> 
            <%# 投稿に紐づくコメントを一覧する処理を記述する %> 
            <% if @comments %> 
            <% @comments.reverse.each do |comment|%> 
              <li class="comments_list"> 
-               <%= comment.text %> 
-                <%= link_to "#{comment.user.name}", user_path(comment.user.id), class: :comment_user %> 
-             </li> 
-            <% end %> 
+               <%# #ユーザー情報カードの部分テンプレートへ %>
+         
+<%# #親コメントが存在する場合、出力 %>
+        <% unless comment.reply_comment == nil %>
+         
+<%# #親コメントのユーザーを出力 %>
+                ----------------------<br>
+             
+            <%# #親コメントの内容を出力 %>
+            <%= @comments.find(comment.reply_comment).text %><br>
+            ----------------------<br>
+          <% end %>
+<%# #コメントを出力 %>
+          <%= comment.text %>
+          <%= link_to "#{comment.user.name}", user_path(comment.user.id), class: :comment_user %>
+                  <%# このコメントに対して投稿 %>
+                  <%unless comment.user_id == current_user.id %>
+                  <%if comment.reply_comment == nil %>
+          <%= form_for [@recipe, @comment] do |f| %>
+           <ul class="collapsible">
+              <li>
+              <div class="collapsible-header">
+               <div class="collapsible-body">
+               
+               <%= f.text_field :text %>
+               <%# #ここ大事！hidden_fieldでフォーム無しに送信先コメントのidをreply_commentに追加 %>
+               <%= f.hidden_field :reply_comment, :value => comment.id  %>
+               
+               <%= f.submit "投稿する" %>
+          
+         </div>
+         </li>
+        </ul>
+        <%end%>
+      <% end %>
+     <%end%>
+  <%# #コメント削除機能 %>
+  <% if comment.user_id == current_user.id %>
+    <%= link_to recipe_comment_path(@recipe,comment), method: :delete , class: "waves-effect waves-light btn" do %>
+    <%= submit_tag "コメントを削除" %>
+    
+    <% end %>
+  <% end %>
+ </li>
+<% end %>
          <% end %> 
+         <% end %>
           <%# // 投稿に紐づくコメントを一覧する処理を記述する %>
          </ul> 
       </div>

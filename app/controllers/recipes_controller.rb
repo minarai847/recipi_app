@@ -1,8 +1,7 @@
 class RecipesController < ApplicationController
   before_action :authenticate_user!, except:[:index,:show]
   def index
-    @recipe = Recipe.all
-    
+    @recipe = Recipe.order("created_at DESC")
     
   end
 
@@ -37,7 +36,7 @@ class RecipesController < ApplicationController
   def show
     @recipe = Recipe.find(params[:id])
     @comment = Comment.new
-    @comments = @recipe.comments.includes(:user)
+    @comments = Comment.includes(:user).where(recipe_id: @recipe.id)
   end
 
   def destroy
@@ -51,7 +50,7 @@ class RecipesController < ApplicationController
     private
     
     def recipe_params
-      params.require(:recipe).permit(:title,:body,:image).merge(user_id: current_user.id)
+      params.require(:recipe).permit(:title,:body,:material,:image).merge(user_id: current_user.id)
     end
 
     
