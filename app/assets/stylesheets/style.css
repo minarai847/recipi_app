@@ -38,17 +38,15 @@ a {
 
 .header {
   background-color:lightyellow;
-  
-  
-
 }
+
 .inner {
   width: 100%;
 }
 .in{
   width: 100%;
   
-  background-image:asset-url("logo5.jpg");
+  background-image:url("logo5.jpg");
 }
 .nav {
   width: 100%;
@@ -287,7 +285,7 @@ a {
 .user__wrapper{
   padding:10px;
   min-height: calc(100vh - 161px);
-  background-image:asset-url("logo5.jpg");
+  background-image:url("logo5.jpg");
 }
 .table{
   border-collapse: collapse;
