@@ -40,6 +40,7 @@ http://52.69.205.104/
 
 <img alt="コメント、返信機能" src="https://user-images.githubusercontent.com/72494683/100247176-64978080-2f7d-11eb-9439-6a08d0ea9565.png" width=70%><br>
 ![レシピ詳細ページ](https://user-images.githubusercontent.com/72494683/100251954-b1ca2100-2f82-11eb-963d-51bfa66a7e0a.gif)
+![いいね機能](https://user-images.githubusercontent.com/72494683/100252421-30bf5980-2f83-11eb-83c0-ba8803bc0445.gif)
 
 </p>
 # 工夫したポイント
