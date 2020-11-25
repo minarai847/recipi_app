@@ -25,16 +25,15 @@ http://52.69.205.104/
 毎日３回以上料理をすると思うので、献立に困ってしまう方も多いと思いました。そこで今回、気軽にレシピを投稿できたり、閲覧したりシェアできるアプリがあれば意見交換もでき、複数回の料理が楽しくできるのではないかと考え制作にあたりました。
 
 # DEMO
-####トップページ
+#### トップページ
 <p align="center">
   <img src="https://user-images.githubusercontent.com/72494683/100242818-93f7be80-2f78-11eb-9887-a85b978f00ab.jpg" width=70%>  
-　
+#### 新規登録画面
 <img alt="新規登録画面" src="https://user-images.githubusercontent.com/72494683/100248114-6e6db380-2f7e-11eb-9120-aa02ccafe6a3.png" width=70%>
-
+#### レシピ投稿画面
 <img alt="roguinn" src="https://user-images.githubusercontent.com/72494683/100247755-04eda500-2f7e-11eb-8005-40d4db0b2df9.png" width=70%>
-<img alt="レシピ投稿画面" src="https://user-images.githubusercontent.com/72494683/100247459-b6400b00-2f7d-11eb-992a-27d323cd544a.png" width=70%>
-
-
+<img alt="レシピ投稿画面" src="https://user-images.githubusercontent.com/72494683/100247459-b6400b00-2f7d-11eb-992a-27d323cd544a.png" width=70%><br>
+#### レシピ編集
 <img alt="レシピ編集" src="https://user-images.githubusercontent.com/72494683/100244916-d15d4b80-2f7a-11eb-851e-5ad1c53cfef5.png" width=70%>
 
 
