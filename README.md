@@ -39,7 +39,7 @@ http://52.69.205.104/
 
 
 <img alt="コメント、返信機能" src="https://user-images.githubusercontent.com/72494683/100247176-64978080-2f7d-11eb-9439-6a08d0ea9565.png" width=70%><br>
-![レシピ詳細ページ](https://user-images.githubusercontent.com/72494683/100251954-b1ca2100-2f82-11eb-963d-51bfa66a7e0a.gif)
+![レシピ詳細ページ](https://user-images.githubusercontent.com/72494683/100253014-f0141000-2f83-11eb-9fc8-2c8a59b3942e.gif)
 ![いいね機能](https://user-images.githubusercontent.com/72494683/100252825-ad523800-2f83-11eb-9ec6-b9bc1fc9c9e1.gif)
 
 </p>
