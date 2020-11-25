@@ -26,7 +26,7 @@ http://52.69.205.104/
 
 # DEMO
 <p align="center">
-  <img src="548c4f38e96ae6ad82b6b257ee937a55.jpg" width=70%>  
+  <img src="(https://user-images.githubusercontent.com/72494683/100242818-93f7be80-2f78-11eb-9887-a85b978f00ab.jpg)" width=70%>  
 </p>　
 <br>[新規登録ページ](https://gyazo.com/687ee266a1d42db30a513f24e76a3a5a)
 ログインページ：https://gyazo.com/704b27fec42e58bd0f0484d9e5797fe3
