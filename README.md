@@ -49,6 +49,7 @@ http://52.69.205.104/
 <p align="center">
 <img alt="コメント、返信機能" src="https://user-images.githubusercontent.com/72494683/100247176-64978080-2f7d-11eb-9439-6a08d0ea9565.png" width=70%><br>
   </p>
+  
 #### レシピ詳細ページ
 
 ![レシピ詳細ページ](https://user-images.githubusercontent.com/72494683/100253014-f0141000-2f83-11eb-9fc8-2c8a59b3942e.gif)<br>
