@@ -39,7 +39,7 @@ http://52.69.205.104/
 
 
 <img alt="コメント、返信機能" src="https://user-images.githubusercontent.com/72494683/100247176-64978080-2f7d-11eb-9439-6a08d0ea9565.png" width=70%><br>
-![レシピ詳細ページ](https://user-images.githubusercontent.com/72494683/100251301-f30e0100-2f81-11eb-81d3-8bf9d8b9d50b.gif)
+![レシピ詳細ページ](https://user-images.githubusercontent.com/72494683/100251954-b1ca2100-2f82-11eb-963d-51bfa66a7e0a.gif)
 
 </p>
 # 工夫したポイント
