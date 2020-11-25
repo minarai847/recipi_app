@@ -35,7 +35,7 @@ http://52.69.205.104/
 レシピ詳細ページ：https://gyazo.com/d67fe141ccbd9871774db319c7826379
 <img alt="レシピ編集" src="https://user-images.githubusercontent.com/72494683/100244916-d15d4b80-2f7a-11eb-851e-5ad1c53cfef5.png" width=70%>
 
-!![いいね機能](https://user-images.githubusercontent.com/72494683/100245424-62342700-2f7b-11eb-9a93-468ded9c4af3.GIF)
+![いいね機能](https://user-images.githubusercontent.com/72494683/100245424-62342700-2f7b-11eb-9a93-468ded9c4af3.GIF)
 コメント、返信機能：https://gyazo.com/71408318f6fd4854b1404f07400ec1e8
 
 # 工夫したポイント
