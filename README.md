@@ -34,10 +34,10 @@ http://52.69.205.104/
 <img alt="roguinn" src="https://user-images.githubusercontent.com/72494683/100247755-04eda500-2f7e-11eb-8005-40d4db0b2df9.png" width=70%>
 <img alt="レシピ投稿画面" src="https://user-images.githubusercontent.com/72494683/100247459-b6400b00-2f7d-11eb-992a-27d323cd544a.png" width=70%>
 
-レシピ詳細ページ：https://gyazo.com/d67fe141ccbd9871774db319c7826379
+
 <img alt="レシピ編集" src="https://user-images.githubusercontent.com/72494683/100244916-d15d4b80-2f7a-11eb-851e-5ad1c53cfef5.png" width=70%>
 
-![いいね機能](https://user-images.githubusercontent.com/72494683/100245424-62342700-2f7b-11eb-9a93-468ded9c4af3.GIF)<br>
+
 <img alt="コメント、返信機能" src="https://user-images.githubusercontent.com/72494683/100247176-64978080-2f7d-11eb-9439-6a08d0ea9565.png" width=70%>
 </p>
 # 工夫したポイント
