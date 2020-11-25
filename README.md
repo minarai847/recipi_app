@@ -31,7 +31,8 @@ http://52.69.205.104/
 </p>　
 <br>[新規登録ページ](https://gyazo.com/687ee266a1d42db30a513f24e76a3a5a)
 ログインページ：https://gyazo.com/704b27fec42e58bd0f0484d9e5797fe3
-新規投稿ページ：https://gyazo.com/02df21783ea7eb6b149d7c617e85a915
+<img alt="レシピ投稿画面" src="https://user-images.githubusercontent.com/72494683/100247459-b6400b00-2f7d-11eb-992a-27d323cd544a.png" width=70%>
+
 レシピ詳細ページ：https://gyazo.com/d67fe141ccbd9871774db319c7826379
 <img alt="レシピ編集" src="https://user-images.githubusercontent.com/72494683/100244916-d15d4b80-2f7a-11eb-851e-5ad1c53cfef5.png" width=70%>
 
