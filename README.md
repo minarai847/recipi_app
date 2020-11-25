@@ -40,8 +40,7 @@ http://52.69.205.104/
 
 <img alt="コメント、返信機能" src="https://user-images.githubusercontent.com/72494683/100247176-64978080-2f7d-11eb-9439-6a08d0ea9565.png" width=70%><br>
 ![レシピ詳細ページ](https://user-images.githubusercontent.com/72494683/100253014-f0141000-2f83-11eb-9fc8-2c8a59b3942e.gif)
-![いいね機能](https://user-images.githubusercontent.com/72494683/100252825-ad523800-2f83-11eb-9ec6-b9bc1fc9c9e1.gif)
-
+![いいね機能](https://user-images.githubusercontent.com/72494683/100253157-1c2f9100-2f84-11eb-9433-ccaa656ccbbc.gif)
 </p>
 # 工夫したポイント
 気に入ったレシピに対してのいいね機能を、コメントに対しての返信機能は付けたてレシピを投稿した人、そのレシピを参考に作ってみた方との間をなるべく近くして、シェアということがしやすいようにしたいと思い実装したことが工夫した点になります。<br>
