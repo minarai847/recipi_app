@@ -27,18 +27,23 @@ http://52.69.205.104/
 # DEMO
 #### トップページ
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/72494683/100242818-93f7be80-2f78-11eb-9887-a85b978f00ab.jpg" width=70%>  
+  <img src="https://user-images.githubusercontent.com/72494683/100242818-93f7be80-2f78-11eb-9887-a85b978f00ab.jpg" width=70%><br>
+  
 #### 新規登録画面
-<img alt="新規登録画面" src="https://user-images.githubusercontent.com/72494683/100248114-6e6db380-2f7e-11eb-9120-aa02ccafe6a3.png" width=70%>
+  
+<img alt="新規登録画面" src="https://user-images.githubusercontent.com/72494683/100248114-6e6db380-2f7e-11eb-9120-aa02ccafe6a3.png" width=70%><br>
+
 #### レシピ投稿画面
+
 <img alt="roguinn" src="https://user-images.githubusercontent.com/72494683/100247755-04eda500-2f7e-11eb-8005-40d4db0b2df9.png" width=70%>
 <img alt="レシピ投稿画面" src="https://user-images.githubusercontent.com/72494683/100247459-b6400b00-2f7d-11eb-992a-27d323cd544a.png" width=70%><br>
 #### レシピ編集
-<img alt="レシピ編集" src="https://user-images.githubusercontent.com/72494683/100244916-d15d4b80-2f7a-11eb-851e-5ad1c53cfef5.png" width=70%>
-
-
+<img alt="レシピ編集" src="https://user-images.githubusercontent.com/72494683/100244916-d15d4b80-2f7a-11eb-851e-5ad1c53cfef5.png" width=70%><br>
+#### コメント、返信機能
 <img alt="コメント、返信機能" src="https://user-images.githubusercontent.com/72494683/100247176-64978080-2f7d-11eb-9439-6a08d0ea9565.png" width=70%><br>
-![レシピ詳細ページ](https://user-images.githubusercontent.com/72494683/100253014-f0141000-2f83-11eb-9fc8-2c8a59b3942e.gif)
+#### レシピ詳細ページ
+![レシピ詳細ページ](https://user-images.githubusercontent.com/72494683/100253014-f0141000-2f83-11eb-9fc8-2c8a59b3942e.gif)<br>
+#### いいね機能
 ![いいね機能](https://user-images.githubusercontent.com/72494683/100253157-1c2f9100-2f84-11eb-9433-ccaa656ccbbc.gif)
 </p>
 # 工夫したポイント
