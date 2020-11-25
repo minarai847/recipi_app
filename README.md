@@ -29,23 +29,33 @@ http://52.69.205.104/
 <p align="center">
   <img src="https://user-images.githubusercontent.com/72494683/100242818-93f7be80-2f78-11eb-9887-a85b978f00ab.jpg" width=70%><br>
 </p>
+
 #### 新規登録画面
+
 <p align="center">
 <img alt="新規登録画面" src="https://user-images.githubusercontent.com/72494683/100248114-6e6db380-2f7e-11eb-9120-aa02ccafe6a3.png" width=70%><br>
 </p>
+
 #### ログイン画面
+
 <p align="center">
 <img alt="roguinn" src="https://user-images.githubusercontent.com/72494683/100247755-04eda500-2f7e-11eb-8005-40d4db0b2df9.png" width=70%><br>
 </p>
+
 #### レシピ投稿画面
+
 <p align="center">
 <img alt="レシピ投稿画面" src="https://user-images.githubusercontent.com/72494683/100247459-b6400b00-2f7d-11eb-992a-27d323cd544a.png" width=70%><br>
 </p>
+
 #### レシピ編集
+
 <p align="center">
 <img alt="レシピ編集" src="https://user-images.githubusercontent.com/72494683/100244916-d15d4b80-2f7a-11eb-851e-5ad1c53cfef5.png" width=70%><br>
 </p>
+
 #### コメント、返信機能
+
 <p align="center">
 <img alt="コメント、返信機能" src="https://user-images.githubusercontent.com/72494683/100247176-64978080-2f7d-11eb-9439-6a08d0ea9565.png" width=70%><br>
   </p>
