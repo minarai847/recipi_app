@@ -28,8 +28,9 @@ http://52.69.205.104/
 ####トップページ
 <p align="center">
   <img src="https://user-images.githubusercontent.com/72494683/100242818-93f7be80-2f78-11eb-9887-a85b978f00ab.jpg" width=70%>  
-</p>　
-<br>[新規登録ページ](https://gyazo.com/687ee266a1d42db30a513f24e76a3a5a)
+　
+<img alt="新規登録画面" src="https://user-images.githubusercontent.com/72494683/100248114-6e6db380-2f7e-11eb-9120-aa02ccafe6a3.png" width=70%>
+
 <img alt="roguinn" src="https://user-images.githubusercontent.com/72494683/100247755-04eda500-2f7e-11eb-8005-40d4db0b2df9.png" width=70%>
 <img alt="レシピ投稿画面" src="https://user-images.githubusercontent.com/72494683/100247459-b6400b00-2f7d-11eb-992a-27d323cd544a.png" width=70%>
 
@@ -38,7 +39,7 @@ http://52.69.205.104/
 
 ![いいね機能](https://user-images.githubusercontent.com/72494683/100245424-62342700-2f7b-11eb-9a93-468ded9c4af3.GIF)<br>
 <img alt="コメント、返信機能" src="https://user-images.githubusercontent.com/72494683/100247176-64978080-2f7d-11eb-9439-6a08d0ea9565.png" width=70%>
-
+</p>
 # 工夫したポイント
 気に入ったレシピに対してのいいね機能を、コメントに対しての返信機能は付けたてレシピを投稿した人、そのレシピを参考に作ってみた方との間をなるべく近くして、シェアということがしやすいようにしたいと思い実装したことが工夫した点になります。<br>
 <br>また、背景色が単色であったりすると味気がない上に、少しでもアクセスしたときに好感を持ってもらい、またアクセスしてもらえるようにトップページのレイアウトには力を入れ、工夫をしました。<br>
