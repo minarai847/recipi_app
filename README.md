@@ -64,7 +64,7 @@ http://52.69.205.104/
 
 <p align="center">
   
-![レシピ詳細ページ](https://user-images.githubusercontent.com/72494683/100253014-f0141000-2f83-11eb-9fc8-2c8a59b3942e.gif)<br>
+![レシピ詳細ページ](https://user-images.githubusercontent.com/72494683/100253014-f0141000-2f83-11eb-9fc8-2c8a59b3942e.gif)
   
  </p> 
 #### いいね機能
