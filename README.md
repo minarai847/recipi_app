@@ -50,13 +50,13 @@ http://52.69.205.104/
 <img alt="コメント、返信機能" src="https://user-images.githubusercontent.com/72494683/100247176-64978080-2f7d-11eb-9439-6a08d0ea9565.png" width=70%><br>
   </p>
 #### レシピ詳細ページ
-<p align="center">
-<br>![レシピ詳細ページ](https://user-images.githubusercontent.com/72494683/100253014-f0141000-2f83-11eb-9fc8-2c8a59b3942e.gif)<br>
-  </p>
+
+![レシピ詳細ページ](https://user-images.githubusercontent.com/72494683/100253014-f0141000-2f83-11eb-9fc8-2c8a59b3942e.gif)<br>
+  
 #### いいね機能
-<p align="center">
-<br>![いいね機能](https://user-images.githubusercontent.com/72494683/100253157-1c2f9100-2f84-11eb-9433-ccaa656ccbbc.gif)<br>
-</p>
+
+![いいね機能](https://user-images.githubusercontent.com/72494683/100253157-1c2f9100-2f84-11eb-9433-ccaa656ccbbc.gif)<br>
+
 # 工夫したポイント
 気に入ったレシピに対してのいいね機能を、コメントに対しての返信機能は付けたてレシピを投稿した人、そのレシピを参考に作ってみた方との間をなるべく近くして、シェアということがしやすいようにしたいと思い実装したことが工夫した点になります。<br>
 <br>また、背景色が単色であったりすると味気がない上に、少しでもアクセスしたときに好感を持ってもらい、またアクセスしてもらえるようにトップページのレイアウトには力を入れ、工夫をしました。<br>
