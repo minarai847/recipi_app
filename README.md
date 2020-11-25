@@ -35,8 +35,8 @@ http://52.69.205.104/
 レシピ詳細ページ：https://gyazo.com/d67fe141ccbd9871774db319c7826379
 <img alt="レシピ編集" src="https://user-images.githubusercontent.com/72494683/100244916-d15d4b80-2f7a-11eb-851e-5ad1c53cfef5.png" width=70%>
 
-![いいね機能](https://user-images.githubusercontent.com/72494683/100245424-62342700-2f7b-11eb-9a93-468ded9c4af3.GIF)
-コメント、返信機能：https://gyazo.com/71408318f6fd4854b1404f07400ec1e8
+![いいね機能](https://user-images.githubusercontent.com/72494683/100245424-62342700-2f7b-11eb-9a93-468ded9c4af3.GIF)<br>
+<img alt="コメント、返信機能" src="https://user-images.githubusercontent.com/72494683/100247176-64978080-2f7d-11eb-9439-6a08d0ea9565.png" width=70%>
 
 # 工夫したポイント
 気に入ったレシピに対してのいいね機能を、コメントに対しての返信機能は付けたてレシピを投稿した人、そのレシピを参考に作ってみた方との間をなるべく近くして、シェアということがしやすいようにしたいと思い実装したことが工夫した点になります。<br>
